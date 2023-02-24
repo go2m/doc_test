@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'helloWorld'
-copyright = '2020, Michael Altfield'
+copyright = '2023, Uwe Strache'
 author = 'Michael Altfield'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '1.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -209,7 +209,8 @@ else:
  
 # tell the theme which language to we're currently building
 html_context['current_language'] = current_language
- 
+
+'''
 # SET CURRENT_VERSION
 from git import Repo
 repo = Repo( search_parent_directories=True )
@@ -268,4 +269,4 @@ html_context['display_github'] = True
 html_context['github_user'] = 'maltfield'
 html_context['github_repo'] = 'rtd-github-pages'
 html_context['github_version'] = 'master/docs/'
- 
+''' 
